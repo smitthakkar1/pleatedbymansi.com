@@ -7,8 +7,21 @@
   pointer-events: none;
 }
 
-.Instagram {
+.Pleated {
+  color: red;
+}
+
+.PleatedLogo {
   height: 10vmin;
+}
+
+.Coming {
+  color: chartreuse;
+}
+
+.PleatedHeader{
+  display: flex;
+  flex-direction: row;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -18,7 +31,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #454b57;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -30,6 +43,14 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Instagram {
+  height: 10vmin;
+}
+
+.SocialContainer {
+  padding: 10px;
 }
 
 @keyframes App-logo-spin {
